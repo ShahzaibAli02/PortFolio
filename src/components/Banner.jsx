@@ -109,7 +109,7 @@ function Banner() {
           </div>
         </div>
       </div>
-      <div style={{ display: "flex", width: "100%", justifyContent: "center" }}>
+      {/* <div style={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <img
           src={isMobile ? numbersVertical : numbers}
           alt="numbers"
@@ -118,7 +118,7 @@ function Banner() {
             textAlign: isMobile ? "center" : "",
           }}
         />
-      </div>
+      </div> */}
     </div>
   );
 }
