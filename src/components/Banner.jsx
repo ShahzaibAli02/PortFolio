@@ -36,7 +36,7 @@ function Banner() {
           flexDirection: "column",
           gap: "50px",
           justifyContent: "center",
-          height: "100vh",
+          height: isMobile ? "80vh" : "100vh",
         }}
       >
         <div
@@ -109,16 +109,160 @@ function Banner() {
           </div>
         </div>
       </div>
-      {/* <div style={{ display: "flex", width: "100%", justifyContent: "center" }}>
-        <img
-          src={isMobile ? numbersVertical : numbers}
-          alt="numbers"
+      <div
+        style={{
+          display: "flex",
+          flexDirection: isMobile ? "column" : "row",
+          justifyContent: isMobile ? "center" : "space-between",
+          gap: isMobile ? "50px" : "",
+          color: "white",
+          margin: isMobile ? "0px 10px" : "0px 100px",
+        }}
+      >
+        <div
           style={{
-            width: isMobile ? "30%" : "100%",
-            textAlign: isMobile ? "center" : "",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
           }}
-        />
-      </div> */}
+        >
+          <span
+            style={{
+              position: "relative",
+              display: "inline-block",
+              fontSize: "62px",
+              fontWeight: "700",
+              fontFamily: "Syne",
+            }}
+          >
+            5
+            <span
+              style={{
+                position: "absolute",
+                top: "-0.01em",
+                right: "-0.6em",
+                color: "#97C10C",
+                fontSize: "48px",
+              }}
+            >
+              +
+            </span>
+          </span>
+          <span
+            style={{
+              fontSize: "16px",
+              fontWeight: "400",
+            }}
+          >
+            Years of Development Experience
+          </span>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <span
+            style={{
+              position: "relative",
+              display: "inline-block",
+              fontSize: "62px",
+              fontWeight: "700",
+              fontFamily: "Syne",
+            }}
+          >
+            150
+            <span
+              style={{
+                position: "absolute",
+                right: "-0.6em",
+                color: "#97C10C",
+                fontSize: "48px",
+              }}
+            >
+              +
+            </span>
+          </span>
+          <span
+            style={{
+              fontSize: "16px",
+              fontWeight: "400",
+            }}
+          >
+            Successful Projects Completed
+          </span>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <span
+            style={{
+              position: "relative",
+              display: "inline-block",
+              fontSize: "62px",
+              fontWeight: "700",
+              fontFamily: "Syne",
+            }}
+          >
+            95
+            <span
+              style={{
+                position: "absolute",
+                right: "-1em",
+                color: "#97C10C",
+                fontSize: "48px",
+              }}
+            >
+              %
+            </span>
+          </span>
+          <span
+            style={{
+              fontSize: "16px",
+              fontWeight: "400",
+            }}
+          >
+            Client Satisfaction Rate
+          </span>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <span
+            style={{
+              position: "relative",
+              display: "inline-block",
+              fontSize: "62px",
+              fontWeight: "700",
+              fontFamily: "Syne",
+            }}
+          >
+            5
+          </span>
+          <span
+            style={{
+              fontSize: "16px",
+              fontWeight: "400",
+            }}
+          >
+            Top Rated Badges
+          </span>
+        </div>
+      </div>
     </div>
   );
 }
