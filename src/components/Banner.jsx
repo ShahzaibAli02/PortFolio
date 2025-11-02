@@ -175,7 +175,7 @@ function Banner() {
               fontFamily: "Syne",
             }}
           >
-            150
+            20
             <span
               style={{
                 position: "absolute",
@@ -232,34 +232,6 @@ function Banner() {
             }}
           >
             Client Satisfaction Rate
-          </span>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <span
-            style={{
-              position: "relative",
-              display: "inline-block",
-              fontSize: "62px",
-              fontWeight: "700",
-              fontFamily: "Syne",
-            }}
-          >
-            5
-          </span>
-          <span
-            style={{
-              fontSize: "16px",
-              fontWeight: "400",
-            }}
-          >
-            Top Rated Badges
           </span>
         </div>
       </div>
