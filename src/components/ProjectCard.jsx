@@ -72,12 +72,10 @@ const ProjectCard = ({
           </h3>
           <p
             style={{
-              fontSize: "16px",
-              fontWeight: 400,
               textAlign: isMobile ? "center" : "start",
             }}
           >
-            {description}
+            <div dangerouslySetInnerHTML={{ __html: description }} />
           </p>
         </div>
 

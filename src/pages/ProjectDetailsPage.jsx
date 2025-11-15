@@ -83,9 +83,7 @@ export default function ProjectDetailsPage() {
           >
             {project.title}
           </h1>
-          <p style={{ fontSize: "16px", lineHeight: 1.6 }}>
-            {project.description}
-          </p>
+          <div dangerouslySetInnerHTML={{ __html: project.keyFeaturesHtml }} />
         </div>
 
         {/* Image section */}
@@ -170,33 +168,6 @@ export default function ProjectDetailsPage() {
             })}
           </div>
         </div>
-      </div>
-
-      {/* Features */}
-      <div style={{ marginTop: "30px" }}>
-        <p
-          style={{
-            fontSize: "clamp(20px, 2.5vw, 28px)",
-            fontWeight: "400",
-            marginBottom: "10px",
-          }}
-        >
-          Key Features:
-        </p>
-        <ul
-          style={{
-            fontFamily: "Roboto, sans-serif",
-            fontSize: "16px",
-            fontWeight: "400",
-            paddingLeft: "20px",
-          }}
-        >
-          {project?.keyFeatures?.map((keyFeature, index) => (
-            <li key={index} style={{ padding: "5px 0px" }}>
-              {keyFeature?.feature}
-            </li>
-          ))}
-        </ul>
       </div>
 
       {/* Store links */}
