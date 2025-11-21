@@ -77,9 +77,8 @@ function Banner() {
             textAlign: isMobile ? "center" : "",
           }}
         >
-          Guiding the Development Journey Together, Your Vision at the Core of
-          Every Line of Code – Where Innovation Meets My Dedication to Crafting
-          Seamless Digital Experiences.
+         Creative soul with tech twist – I build mobile apps that blend
+          innovation and user delight.
         </span>
 
         <div
