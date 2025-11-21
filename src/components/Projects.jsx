@@ -11,7 +11,7 @@ const MyProjects = () => {
 
   const fetchProjects = async () => {
     const res = await fetch(
-      `${import.meta.env.VITE_BACK_END_URL}/api/projects?page=1&limit=5`
+      `${import.meta.env.VITE_BACK_END_URL}/api/projects?page=1&limit=200`
     );
     const data = await res.json();
     setProjects(data?.projects);
