@@ -56,8 +56,7 @@ export default function ProjectsPage() {
         padding: "60px 60px",
         display: "flex",
         flexDirection: "column",
-        gap: "30px",
-        fontFamily: "Michroma",
+        gap: "30px"
       }}
     >
       <h1

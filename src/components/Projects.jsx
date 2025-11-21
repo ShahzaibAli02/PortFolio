@@ -46,7 +46,7 @@ const MyProjects = () => {
       >
         <div
           style={{
-            fontFamily: "Michroma, sans-serif",
+            fontFamily: "Roboto, sans-serif",
             fontWeight: 400,
             fontSize: isMobile ? "36px" : "50px",
             color: "#97C10C",

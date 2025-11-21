@@ -24,8 +24,7 @@ const ProjectCard = ({
         alignItems: "center",
         borderRadius: "12px",
         marginBottom: "20px",
-        gap: isMobile ? "20px" : "40px",
-        fontFamily: "Michroma, sans-serif",
+        gap: isMobile ? "20px" : "40px"
       }}
     >
       <img

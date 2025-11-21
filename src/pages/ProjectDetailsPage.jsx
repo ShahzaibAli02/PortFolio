@@ -47,7 +47,6 @@ export default function ProjectDetailsPage() {
       style={{
         padding: "clamp(20px, 5vw, 80px)",
         color: "white",
-        fontFamily: "Michroma, sans-serif",
         display: "flex",
         flexDirection: "column",
       }}
