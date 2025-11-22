@@ -76,7 +76,7 @@ const About = () => {
             margin: isMobile ? "0 auto" : "0",
           }}
         >
-          Hey there! I’m Shahzaib Ali, experienced Mobile App Developer with 5+ years in Android (Kotlin, Java , Compose , KMP) and 2+ years in iOS (Swift, SwiftUI).
+          Hey there! I’m Shahzaib Ali, experienced Mobile App Developer with 5+ years in Android (Kotlin, Java , Compose , KMP) and 4+ years in iOS (Swift, SwiftUI).
 Skilled in MVVM architecture, RESTful APIs, Firebase, and cross-platform development. Strong problem-solving abilities with a
 focus on clean code, scalability, and performance.
         </span>
